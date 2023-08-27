@@ -60,7 +60,12 @@ class CsvView extends TextFileView {
 		const containerDiv = document.createElement("div");
 		containerDiv.id = "spreadsheet";
 		this.contentEl.appendChild(containerDiv);
-		this._spreadSheet = jspreadsheet(containerDiv, { about: false, minSpareCols: 2, minSpareRows: 2 });
+		this._spreadSheet = jspreadsheet(containerDiv, {
+			about: false,
+			minSpareCols: 2,
+			minSpareRows: 2,
+			columnSorting: false
+		});
 
 	}
 
