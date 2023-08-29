@@ -14,6 +14,20 @@ If your plugin does not need CSS, delete this file.
   display: none;
 }
 
+.markdown-rendered table.jexcel {
+  border-collapse: separate;
+  margin-block-end: 0;
+}
+
+.jexcel_content {
+  padding: 0;
+}
+
+.block-language-spreadsheet {
+  overflow: auto;
+  max-height: 400px;
+}
+
 .theme-light {
   --jexcel_header_color: #000;
   --jexcel_header_color_highlighted: #000;
