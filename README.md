@@ -1,6 +1,6 @@
 # Obsidian Spreadsheet Plugins
 
-> Note: this plugin is currently limited to CSV editing and display only, but it does support formulas. I plan to add support for other spreadsheet formats in the future.
+> Note: this plugin is currently limited to CSV files, but it does support formulas. I plan to add support for other spreadsheet formats in the future.
 
 This plugin allows you to embed and edit spreadsheets in Obsidian.
 
