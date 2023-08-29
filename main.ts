@@ -165,7 +165,10 @@ class CsvView extends TextFileView {
 			minSpareRows: 12,
 			defaultColWidth: 120,
 			defaultRowHeight: 24,
-			columnSorting: false
+			columnSorting: false,
+			onafterchanges: () => {
+				this.requestSave();
+			}
 		});
 
 	}
